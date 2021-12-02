@@ -3,6 +3,11 @@
     position:sticky;
 }
 
+.link-op:hover{
+    color: black;
+    opacity: 0.50;
+}
+
 .btn-centrar{
     margin-left: 17rem
 }
@@ -13,4 +18,22 @@
 
 .btn-centrar--ult{
     margin-left: 18rem;
+}
+
+.texto-deco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flei{
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+.fled{
+    margin-top: 2.5rem;
+    margin-right: 2rem;
+    font-size: 2rem;
 }

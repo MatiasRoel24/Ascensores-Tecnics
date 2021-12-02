@@ -23,6 +23,11 @@ header {
   border: none;
 }
 
+.link-op:hover {
+  color: black;
+  opacity: 0.5;
+}
+
 .hero {
   height: 100vh;
   width: 100%;
@@ -59,11 +64,16 @@ header {
 .hero__boton {
   background-color: white;
   color: black;
-  padding: 1.8rem;
   text-decoration: none;
   border-radius: 0.5rem;
   position: relative;
   overflow: hidden;
+  padding: 1.8rem;
+}
+
+.hero__boton:hover {
+  color: black;
+  opacity: 0.5;
 }
 
 .span__boton {
@@ -150,6 +160,10 @@ header {
   margin-left: 1rem;
 }
 
+.icono:hover {
+  opacity: 0.7;
+}
+
 .copy {
   text-align: center;
   color: white;
@@ -163,6 +177,11 @@ header {
   position: sticky;
 }
 
+.link-op:hover {
+  color: black;
+  opacity: 0.5;
+}
+
 .btn-centrar {
   margin-left: 17rem;
 }
@@ -173,6 +192,24 @@ header {
 
 .btn-centrar--ult {
   margin-left: 18rem;
+}
+
+.texto-deco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flei {
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.fled {
+  margin-top: 2.5rem;
+  margin-right: 2rem;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

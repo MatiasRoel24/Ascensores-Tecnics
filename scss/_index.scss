@@ -12,6 +12,11 @@ header {
   border: none;
 }
 
+.link-op:hover{
+  color: black;
+  opacity: 0.50;
+}
+
 .hero {
   height: 100vh;
   width: 100%;
@@ -50,11 +55,16 @@ header {
 .hero__boton {
   background-color: white;
   color: black;
-  padding: 1.8rem;
   text-decoration: none;
   border-radius: 0.5rem;
   position: relative;
   overflow: hidden;
+  padding: 1.8rem;
+}
+
+.hero__boton:hover{
+  color: black;
+  opacity: 0.50;
 }
 
 .span__boton {
@@ -145,6 +155,10 @@ header {
   color: white;
   font-size: 3rem;
   margin-left: 1rem;
+}
+
+.icono:hover{
+  opacity: 0.70;
 }
 
 .copy{
