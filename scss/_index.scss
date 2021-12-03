@@ -52,25 +52,6 @@ header {
   }
 }
 
-.hero__boton {
-  background-color: white;
-  color: black;
-  text-decoration: none;
-  border-radius: 0.5rem;
-  position: relative;
-  overflow: hidden;
-  padding: 1.8rem;
-}
-
-.hero__boton:hover{
-  color: black;
-  opacity: 0.50;
-}
-
-.span__boton {
-  font-size: 1.8rem;
-}
-
 .carousel__modifi {
   max-height: 60rem;
 }
@@ -129,11 +110,18 @@ header {
   justify-content: center;
   background-color: black;
   margin-top: 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
+
 
 @media (min-width:576px){
   .footer{
     margin-top: 7rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 }
 

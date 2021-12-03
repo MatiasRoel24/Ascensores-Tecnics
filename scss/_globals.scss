@@ -8,3 +8,15 @@
 html{
     font-size: 62.5%;
 }
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+@media (min-width:576px){
+    body{
+        padding-bottom: 15rem;
+        
+    }
+}

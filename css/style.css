@@ -9,6 +9,16 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+@media (min-width: 576px) {
+  body {
+    padding-bottom: 15rem;
+  }
+}
 header {
   padding: 0.5rem 0;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -61,25 +71,6 @@ header {
     margin-bottom: 2rem;
   }
 }
-.hero__boton {
-  background-color: white;
-  color: black;
-  text-decoration: none;
-  border-radius: 0.5rem;
-  position: relative;
-  overflow: hidden;
-  padding: 1.8rem;
-}
-
-.hero__boton:hover {
-  color: black;
-  opacity: 0.5;
-}
-
-.span__boton {
-  font-size: 1.8rem;
-}
-
 .carousel__modifi {
   max-height: 60rem;
 }
@@ -133,11 +124,17 @@ header {
   justify-content: center;
   background-color: black;
   margin-top: 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 @media (min-width: 576px) {
   .footer {
     margin-top: 7rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 }
 .footer__titulo {
@@ -210,6 +207,11 @@ header {
   margin-top: 2.5rem;
   margin-right: 2rem;
   font-size: 2rem;
+}
+
+.qs {
+  font-size: 5rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
