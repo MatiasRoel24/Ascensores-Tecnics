@@ -1,5 +1,29 @@
-.qs{
-    font-size: 5rem;
-    text-align: center;
+.container__qs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
 }
 
+.qs__titulo{
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.qs__parrafo{
+  text-align: center;
+  margin-top: 3rem;  
+} 
+
+@media (min-width:576px){
+    .qs__titulo{
+        font-size: 8rem;
+        text-align: center;
+    }
+    
+    .qs__parrafo{
+    
+    } 
+}

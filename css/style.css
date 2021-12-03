@@ -123,10 +123,13 @@ header {
   display: flex;
   justify-content: center;
   background-color: black;
-  margin-top: 2rem;
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+footer {
+  padding-top: 12rem;
 }
 
 @media (min-width: 576px) {
@@ -209,9 +212,30 @@ header {
   font-size: 2rem;
 }
 
-.qs {
-  font-size: 5rem;
+.container__qs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.qs__titulo {
+  font-size: 6rem;
   text-align: center;
+  margin-top: 10rem;
+}
+
+.qs__parrafo {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+@media (min-width: 576px) {
+  .qs__titulo {
+    font-size: 8rem;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
