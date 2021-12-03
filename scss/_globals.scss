@@ -14,9 +14,8 @@ body{
     min-height: 100vh;
 }
 
-@media (min-width:576px){
-    body{
-        padding-bottom: 15rem;
-        
+@media (min-width: 576px) {
+    body {
+      padding-bottom: 1rem;
     }
-}
+  }

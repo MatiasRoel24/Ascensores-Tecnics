@@ -16,7 +16,7 @@ body {
 
 @media (min-width: 576px) {
   body {
-    padding-bottom: 15rem;
+    padding-bottom: 1rem;
   }
 }
 header {
@@ -133,8 +133,13 @@ footer {
 }
 
 @media (min-width: 576px) {
+  footer {
+    padding-top: 0rem;
+  }
+}
+@media (min-width: 576px) {
   .footer {
-    margin-top: 7rem;
+    margin-top: 0rem;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -212,6 +217,15 @@ footer {
   font-size: 2rem;
 }
 
+@media (min-width: 768px) {
+  .container-servicio {
+    height: 55vh;
+  }
+
+  footer {
+    margin-top: 15rem;
+  }
+}
 .container__qs {
   display: flex;
   flex-direction: column;
@@ -236,6 +250,49 @@ footer {
     font-size: 8rem;
     text-align: center;
   }
+}
+.container-ul {
+  margin-top: 10rem;
+  margin-left: 20rem;
+}
+
+.container-ul--2 {
+  margin-top: 14rem;
+  margin-left: 20rem;
+}
+
+.ul-normativas {
+  font-size: 2rem;
+}
+
+.nor-link {
+  text-decoration: none;
+  color: black;
+}
+
+.nor-link:hover {
+  color: black;
+  opacity: 0.5;
+}
+
+.img-respo {
+  max-width: 37.5rem;
+  max-height: 37.5rem;
+  height: auto;
+  width: auto;
+}
+
+@media (min-width: 576px) {
+  .img-nor {
+    max-width: 60rem;
+    max-height: 60rem;
+    height: auto;
+    width: auto;
+    margin-left: 2rem;
+  }
+}
+.m-cont {
+  margin-top: 15rem;
 }
 
 /*# sourceMappingURL=style.css.map */
