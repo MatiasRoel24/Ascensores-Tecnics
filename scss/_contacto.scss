@@ -1,3 +1,31 @@
 .m-cont{
     margin-top: 15rem;
 }
+
+
+.cajas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+@mixin box($width, $height, $bg, $mt){
+    height: $height;
+    width: $width;
+    background-color: $bg;
+    margin-top: $mt;
+}
+
+.caja{
+    @include box(20rem,20rem ,red ,5rem)
+}
+
+.caja-2{
+    @include box(20rem,20rem ,green ,5rem)
+}
+
+.caja-3{
+    @include box(20rem,20rem ,yellow ,5rem)
+}

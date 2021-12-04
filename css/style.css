@@ -295,4 +295,31 @@ footer {
   margin-top: 15rem;
 }
 
+.cajas {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.caja {
+  height: 20rem;
+  width: 20rem;
+  background-color: red;
+  margin-top: 5rem;
+}
+
+.caja-2 {
+  height: 20rem;
+  width: 20rem;
+  background-color: green;
+  margin-top: 5rem;
+}
+
+.caja-3 {
+  height: 20rem;
+  width: 20rem;
+  background-color: yellow;
+  margin-top: 5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
