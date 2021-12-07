@@ -1,8 +1,4 @@
-@use "globals";
-@use "variables";
-@use "index";
-@use "servicio";
-@use "empresa";
-@use "leyes";
-@use "normativas";
-@use "contacto";
+@import "globals";
+@import "variables";
+@import "index";
+@import "mediaquery";

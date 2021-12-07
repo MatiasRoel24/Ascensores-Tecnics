@@ -1,20 +1,5 @@
-header {
-  padding: 0.5rem 0;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  background: linear-gradient(rgba(5, 7, 12, 0.45), rgba(5, 7, 12, 0.45));
-}
-
 .navbar-toggler {
   border: none;
-}
-
-.link-op:hover{
-  color: black;
-  opacity: 0.50;
 }
 
 .hero {
@@ -39,36 +24,6 @@ header {
   margin-bottom: 5rem;
 }
 
-@media (min-width: 576px) {
-  .hero__titulo {
-    font-size: 9rem;
-    color: white;
-  }
-
-  .hero__subtitulo {
-    font-size: 3rem;
-    color: white;
-    margin-bottom: 2rem;
-  }
-}
-
-.carousel__modifi {
-  max-height: 60rem;
-}
-
-
-/*.background-carousel{
-   background-image: url(../imgs/Ascensor\ 1.jpg);
-}*/
-
-.icono__blanco {
-  font-size: 2rem;
-  padding: 0.8rem;
-  border: 1px solid white;
-  border-radius: 1rem;
-  color: white;
-}
-
 .icono--whatsapp {
   position: fixed;
   width: 6rem;
@@ -85,84 +40,92 @@ header {
   z-index: 100;
 }
 
-@media (min-width: 576px){
-.icono--whatsapp {
-  position: fixed;
-  width: 6rem;
-  height: 6rem;
-  line-height: 6rem;
-  bottom: 3rem;
-  right: 4rem;
-  background: #0df053;
-  color: #fff;
-  border-radius: 5rem;
-  text-align: center;
-  font-size: 4rem;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-  z-index: 100;
-}
+.icono--whatsapp:hover {
+  color: white;
 }
 
+.op-wp:hover {
+  color: white;
+  opacity: 0.8;
+}
 
+/*** SERVICIO ****/
 
-.footer{
+.texto-deco {
   display: flex;
   justify-content: center;
-  background-color: black;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-footer{
-  padding-top: 12rem;
-}
-
-@media (min-width:576px){
-    footer{
-      padding-top: 0rem;
-    }
-}
-
-
-@media (min-width:576px){
-  .footer{
-    margin-top: 0rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-}
-
-.footer__titulo{
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-  margin-left: 1rem;
-  color: white;
-  font-size: 1.6rem;
-}
-
-.footer__redes{
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
-.icono{
-  color: white;
+.card-tamaño {
+  width: 50rem;
+  height: 50rem;
+}
+
+.flei {
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.fled {
+  margin-top: 2.5rem;
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+/*** EMPRESA ***/
+
+.img-empresa-tamaño{
+  height: 30rem;
+  width: 36rem;
+}
+.sn-color{
+  color: $color-principal;
   font-size: 3rem;
-  margin-left: 1rem;
 }
 
-.icono:hover{
-  opacity: 0.70;
+.texto-centrado{
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 2rem;
 }
 
-.copy{
-  text-align: center;
-  color: white;
-  background-color: black;
-  font-size: 1rem;
-  padding-top: 0.8rem;
+
+/*** NORMATIVAS ***/
+
+.container-ul {
+  margin-top: 10rem;
+  margin-left: 20rem;
 }
 
+.container-ul--2 {
+  margin-top: 14rem;
+  margin-left: 20rem;
+}
+
+.ul-normativas {
+  font-size: 2rem;
+}
+
+.nor-link {
+  text-decoration: none;
+  color: black;
+}
+
+.nor-link:hover {
+  color: black;
+  opacity: 0.5;
+}
+
+.img-respo {
+  max-width: 37.5rem;
+  max-height: 37.5rem;
+  height: auto;
+  width: auto;
+}
