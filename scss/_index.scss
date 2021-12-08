@@ -111,6 +111,7 @@
 
 .ul-normativas {
   font-size: 2rem;
+  list-style: none;
 }
 
 .nor-link {
@@ -119,7 +120,7 @@
 }
 
 .nor-link:hover {
-  color: black;
+  color: $color-principal;
   opacity: 0.5;
 }
 

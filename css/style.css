@@ -50,8 +50,6 @@ header {
   display: flex;
   justify-content: center;
   background-color: black;
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 
@@ -196,6 +194,7 @@ header {
 
 .ul-normativas {
   font-size: 2rem;
+  list-style: none;
 }
 
 .nor-link {
@@ -204,7 +203,7 @@ header {
 }
 
 .nor-link:hover {
-  color: black;
+  color: #023e8a;
   opacity: 0.5;
 }
 
@@ -257,8 +256,6 @@ header {
 @media (min-width: 576px) {
   .footer {
     margin-top: 0rem;
-    position: absolute;
-    bottom: 0;
     width: 100%;
   }
 }
