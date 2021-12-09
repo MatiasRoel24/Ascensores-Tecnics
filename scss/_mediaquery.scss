@@ -79,3 +79,52 @@
     width: 50rem;
   }
 }
+
+/*** SERVICIOS ***/
+
+@media (min-width: 576px){
+  .container-nor{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-normativa{
+    margin-right: 20rem;
+    margin-left: 90rem;
+  }
+  
+  .pdf-text{
+    font-weight: bold;
+  }
+
+  .li-normativas
+  {
+    width: 70rem;
+  }
+  
+  .ul-normativas {
+    list-style: circle;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .nor-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nor-link:hover {
+    color: $color-principal;
+    opacity: 0.5;
+  }
+  
+  .img-respo {
+    max-width: 52rem;
+    max-height: 52rem;
+    height: auto;
+    width: auto;
+  }
+}
+
+
