@@ -87,10 +87,17 @@
 
 /*** EMPRESA ***/
 
+.contenedor-img-empresa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .img-empresa-tamaño{
   height: 30rem;
-  width: 36rem;
+  width: 35rem;
 }
+
 .sn-color{
   color: $color-principal;
   font-size: 3rem;
