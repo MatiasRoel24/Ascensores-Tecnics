@@ -1,66 +1,81 @@
 @media (min-width: 576px) {
-    .hero__titulo {
-      font-size: 9rem;
-      color: white;
-    }
-  
-    .hero__subtitulo {
-      font-size: 3rem;
-      color: white;
-      margin-bottom: 2rem;
-    }
+  .img-logo{
+    max-width: 4rem;
+    max-height: 4rem;
+    width: auto;
+    height: auto;
   }
 
-  @media (min-width: 576px){
-    .icono--whatsapp {
-      position: fixed;
-      width: 6rem;
-      height: 6rem;
-      line-height: 6rem;
-      bottom: 3rem;
-      right: 4rem;
-      background: #0df053;
-      color: #fff;
-      border-radius: 5rem;
-      text-align: center;
-      font-size: 4rem;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-      z-index: 100;
-    }
-    }
+  .text-logo {
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 0.5rem;
+  }
+}
 
-      @media (min-width:768px){
-        .container-servicio{
-            height: 55vh;
-        }
-      }
-      
-      @media (min-width:768px){
-      footer{
-        margin-top: 1.7rem;
-        }
-      }
+@media (min-width: 576px) {
+  .hero__titulo {
+    font-size: 9rem;
+    color: white;
+  }
 
-      @media (min-width:576px){
-        .qs__titulo{
-            font-size: 8rem;
-            text-align: center;
-        }
-      }
+  .hero__subtitulo {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+  }
+}
 
-      @media (min-width:576px){
-        .img-nor{
-            max-width: 60rem;
-            max-height: 60rem;
-            height: auto;
-            width: auto;
-            margin-left: 2rem;
-        }
-      }
+@media (min-width: 576px) {
+  .icono--whatsapp {
+    position: fixed;
+    width: 6rem;
+    height: 6rem;
+    line-height: 6rem;
+    bottom: 3rem;
+    right: 4rem;
+    background: #0df053;
+    color: #fff;
+    border-radius: 5rem;
+    text-align: center;
+    font-size: 4rem;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+  }
+}
 
-      @media (min-width:768px){
-        .img-empresa-tamaño{
-          height: 50rem;
-          width: 50rem;
-        }
-      }
+@media (min-width: 768px) {
+  .container-servicio {
+    height: 55vh;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    margin-top: 1.7rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .qs__titulo {
+    font-size: 8rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .img-nor {
+    max-width: 60rem;
+    max-height: 60rem;
+    height: auto;
+    width: auto;
+    margin-left: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .img-empresa-tamaño {
+    height: 50rem;
+    width: 50rem;
+  }
+}
