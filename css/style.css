@@ -275,6 +275,15 @@ header {
   padding: 3rem;
 }
 
+.link-contacto {
+  text-decoration: none;
+  color: white;
+}
+
+.link-contacto:hover {
+  color: white;
+}
+
 .form {
   background-color: white;
   padding: 3rem;
