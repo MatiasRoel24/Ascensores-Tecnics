@@ -93,6 +93,10 @@
 
 /*** SERVICIO ****/
 
+.aa{
+  height: 80vh;
+}
+
 .texto-deco {
   display: flex;
   justify-content: center;
@@ -100,10 +104,16 @@
 }
 
 .card-tamaño {
-  width: 50rem;
-  height: 50rem;
+  width: 40rem;
+  height: 40rem;
 }
 
+.card-img{
+  max-width: 100rem;
+  max-height: 100rem;
+  height: auto;
+  width: auto;
+}
 .flei {
   margin-top: 2.5rem;
   margin-left: 2rem;

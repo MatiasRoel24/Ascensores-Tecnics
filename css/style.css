@@ -176,6 +176,10 @@ header {
 }
 
 /*** SERVICIO ****/
+.aa {
+  height: 80vh;
+}
+
 .texto-deco {
   display: flex;
   justify-content: center;
@@ -183,8 +187,15 @@ header {
 }
 
 .card-tamaño {
-  width: 50rem;
-  height: 50rem;
+  width: 40rem;
+  height: 40rem;
+}
+
+.card-img {
+  max-width: 100rem;
+  max-height: 100rem;
+  height: auto;
+  width: auto;
 }
 
 .flei {
