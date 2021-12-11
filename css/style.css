@@ -22,13 +22,17 @@ header {
   z-index: 1;
   width: 100%;
   background: linear-gradient(rgba(5, 7, 12, 0.45), rgba(5, 7, 12, 0.45));
-  height: 6.5rem;
+  height: 7rem;
 }
 
 .header-secundario {
   background-color: black;
   position: sticky;
-  height: 6.5rem;
+  height: 7rem;
+}
+
+.navbar-color {
+  background-color: black;
 }
 
 .icono__blanco {
@@ -44,7 +48,7 @@ header {
 }
 
 main {
-  min-height: calc(100vh - 6.5rem - 10rem);
+  min-height: calc(100vh - 8rem - 10rem);
 }
 
 footer {
@@ -317,6 +321,18 @@ footer {
     margin-left: 0.5rem;
   }
 }
+@media (min-width: 576px) {
+  .header-secundario {
+    background-color: black;
+    position: sticky;
+    height: 6.5rem;
+  }
+}
+@media (min-width: 576px) {
+  main {
+    min-height: calc(100vh - 6.5rem - 10rem);
+  }
+}
 /*** INICIO ***/
 @media (min-width: 576px) {
   .hero__titulo {
@@ -348,11 +364,6 @@ footer {
   }
 }
 /*** SERVICIOS ***/
-@media (min-width: 768px) {
-  .container-servicio {
-    height: 55vh;
-  }
-}
 /*** EMPRESA ***/
 @media (min-width: 576px) {
   .qs__titulo {

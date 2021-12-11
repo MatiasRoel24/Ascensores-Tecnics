@@ -16,6 +16,23 @@
 }
 
 
+@media (min-width: 576px){
+
+  .header-secundario {
+    background-color: black;
+    position: sticky;
+    height: 6.5rem;
+  }
+}
+
+@media (min-width: 576px){
+main{
+  min-height: calc(100vh - 6.5rem - 10rem);
+}
+}
+
+
+
 /*** INICIO ***/
 
 @media (min-width: 576px) {
@@ -51,11 +68,7 @@
 
 /*** SERVICIOS ***/
 
-@media (min-width: 768px) {
-  .container-servicio {
-    height: 55vh;
-  }
-}
+
 
 /*** EMPRESA ***/
 
