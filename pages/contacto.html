@@ -120,9 +120,24 @@
             <div class="col-12 col-lg-6">
               <form action="https://formsubmit.co/matiasroel241201@gmail.com" method="POST">
                 <div class="form w-100 mt-3 d-flex flex-column justify-content-center align-items-center">
-                  <input type="text" name="name" required>
-                  <input type="email" name="email" required>
-                  <button type="submit">Send</button>
+                  <div class="form w-100 mb-5 mt-3 pb-5">
+                    <h4 class="text-center fs-1 title-men">Envíenos un mensaje</h4>
+                      <div class="col-sm-12 col-lg-12 col-md-12 mb-3 mt-4">
+                        <input type="text" id="nombre" name="nombre" class="form-control form-control-lg" placeholder="Nombre">
+                      </div>
+                      <div class="col-sm-12 col-lg-12 col-md-12 mb-3">
+                        <input type="text" id="apellido" name="apellido" class="form-control form-control-lg" placeholder="Apellido">
+                      </div>
+                      <div class="col-lg-12 mb-4">
+                        <input type="email" id="email" name="email" class="form-control form-control-lg" placeholder="Correo electronico">
+                      </div>
+                      <div class="col-lg-12 mb-4 mt-2">
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="8" class="form-control form-control-lg textarea-expand" placeholder="Inserte su mensaje"></textarea>
+                      </div>
+                      <div class="contenedor-btn">
+                        <button class="contacto__btn" type="submit">Enviar</button>
+                      </div>
+                  
                 </div>
            </form>
             </div>
