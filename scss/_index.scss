@@ -93,24 +93,12 @@
 
 /*** SERVICIO ****/
 
-
 .texto-deco {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.card-tamaño {
-  width: 40rem;
-  height: 40rem;
-}
-
-.card-img{
-  max-width: 100rem;
-  max-height: 100rem;
-  height: auto;
-  width: auto;
-}
 .flei {
   margin-top: 2.5rem;
   margin-left: 2rem;
@@ -121,6 +109,40 @@
   margin-top: 2.5rem;
   margin-right: 2rem;
   font-size: 2rem;
+}
+
+.contenedor-img{
+  background-color: $color-principal;
+  width: 100%;
+  height: 55rem;
+  margin: auto;
+  padding: 3rem;
+  padding-top: 4rem;
+  box-shadow: 1px 9px 12px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 9px 12px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 9px 12px 0px rgba(0,0,0,0.75);
+}
+
+.img-servicio{
+  height: 20rem;
+  width: 30rem;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.servicio__titulo{
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.servicio__texto{
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 /*** EMPRESA ***/
@@ -201,6 +223,7 @@
 .contacto{
   background-color: $color-principal;
   padding: 3rem;
+  margin-bottom: 3rem;
 }
 
 .link-contacto{
@@ -217,8 +240,38 @@
   padding: 3rem;
 }
 
+.contenedor-btn{
+  width: 100%;
+}
+
+.contacto__btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 4rem;
+  background-color: $color-principal;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s ease all;
+}
+
+.contacto__btn:hover{
+  color: white;
+  opacity: 0.75;
+}
+
+
 .title-men{
   color: $color-principal;
+}
+
+.textarea-expand{
+  resize: none;
 }
 
 

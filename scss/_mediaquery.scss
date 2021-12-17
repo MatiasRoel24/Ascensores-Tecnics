@@ -68,6 +68,37 @@ main{
 
 /*** SERVICIOS ***/
 
+@media (min-width: 576px){
+  .contenedor-img{
+    background-color: $color-principal;
+    width: 40rem;
+    height: 75rem;
+    margin: auto;
+    padding-top: 4rem;
+  }
+  
+  .img-servicio{
+    height: 25rem;
+    width: 34rem;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .servicio__titulo{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+    
+  }
+  
+  .servicio__texto{
+    color: white;
+    font-size: 2rem;
+  }
+}
+
 
 
 /*** EMPRESA ***/
@@ -137,6 +168,11 @@ main{
 
 /*** CONTACTO ***/
 
+@media (min-width: 576px){
+  .mapa{
+    width: 500px;
+  }
+}
 
 
 
