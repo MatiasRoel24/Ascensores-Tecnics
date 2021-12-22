@@ -1,3 +1,5 @@
+/*** INDEX ***/
+
 .navbar-toggler {
   border: none;
 }
@@ -285,5 +287,39 @@
   resize: none;
 }
 
+/*** error ***/
+
+.contenedor-404{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .text-404{
+    text-transform: uppercase;
+    font-size: 4rem;
+  }
+
+  .icon-ban{
+    font-size: 20rem;
+    color: black;
+  }
+
+  .regresar{
+    margin-top: 2rem;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 2rem;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+  }
+
+  .regresar:hover{
+    opacity: 0.70;
+  }
+}
 
 
