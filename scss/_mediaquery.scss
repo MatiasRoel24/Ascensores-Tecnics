@@ -31,8 +31,6 @@ main{
 }
 }
 
-
-
 /*** INICIO ***/
 
 @media (min-width: 576px) {
@@ -55,7 +53,7 @@ main{
     height: 6rem;
     line-height: 6rem;
     bottom: 3rem;
-    right: 4rem;
+    right: 5rem;
     background: #0df053;
     color: #fff;
     border-radius: 5rem;
@@ -68,13 +66,13 @@ main{
 
 /*** SERVICIOS ***/
 
-@media (min-width: 576px){
+@media (min-width:768px){
   .contenedor-img{
     background-color: $color-principal;
     width: 40rem;
-    height: 75rem;
+    height: 65rem;
     margin: auto;
-    padding-top: 4rem;
+    padding-top: 2.5rem;
   }
   
   .img-servicio{
@@ -95,11 +93,9 @@ main{
   
   .servicio__texto{
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
-
-
 
 /*** EMPRESA ***/
 

@@ -261,11 +261,11 @@ footer {
   height: 50rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 0.5rem;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 /*** NORMATIVAS ***/
@@ -280,10 +280,21 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.container-leyes {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .pdf-text {
   font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #023e8a;
+  text-transform: uppercase;
 }
 
 .ul-normativas {
@@ -411,7 +422,7 @@ footer {
     height: 6rem;
     line-height: 6rem;
     bottom: 3rem;
-    right: 4rem;
+    right: 5rem;
     background: #0df053;
     color: #fff;
     border-radius: 5rem;
@@ -422,13 +433,13 @@ footer {
   }
 }
 /*** SERVICIOS ***/
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .contenedor-img {
     background-color: #023e8a;
     width: 40rem;
-    height: 75rem;
+    height: 65rem;
     margin: auto;
-    padding-top: 4rem;
+    padding-top: 2.5rem;
   }
 
   .img-servicio {
@@ -448,7 +459,7 @@ footer {
 
   .servicio__texto {
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 /*** EMPRESA ***/
