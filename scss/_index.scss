@@ -127,7 +127,7 @@
 
 .img-servicio{
   height: 20rem;
-  width: 30rem;
+  width:100%;
   display: block;
   margin: auto;
   border-radius: 10px;
@@ -156,8 +156,10 @@
 }
 
 .img-empresa-tamaño{
-  height: 30rem;
-  width: 35rem;
+  height: 40rem;
+  width: 94%;
+  border-bottom: 2px solid $color-principal;
+  padding-bottom: 5rem;
 }
 
 .sn-color{
@@ -166,12 +168,12 @@
 }
 
 .texto-centrado{
-  height: 50rem;
+  height: 55rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-size: 2rem;
   margin-top: 1rem;
 }

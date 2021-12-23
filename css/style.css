@@ -33,6 +33,10 @@ header {
   background: linear-gradient(rgba(5, 7, 12, 0.45), rgba(5, 7, 12, 0.45));
 }
 
+.nav-secundario__color {
+  background-color: black;
+}
+
 .navbar-color {
   background-color: black;
 }
@@ -221,7 +225,7 @@ footer {
 
 .img-servicio {
   height: 20rem;
-  width: 30rem;
+  width: 100%;
   display: block;
   margin: auto;
   border-radius: 10px;
@@ -249,8 +253,10 @@ footer {
 }
 
 .img-empresa-tamaño {
-  height: 30rem;
-  width: 35rem;
+  height: 40rem;
+  width: 94%;
+  border-bottom: 2px solid #023e8a;
+  padding-bottom: 5rem;
 }
 
 .sn-color {
@@ -259,12 +265,12 @@ footer {
 }
 
 .texto-centrado {
-  height: 50rem;
+  height: 55rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-size: 2rem;
   margin-top: 1rem;
 }
@@ -384,27 +390,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.contenedor-404 .text-404 {
-  text-transform: uppercase;
-  font-size: 4rem;
-}
-.contenedor-404 .icon-ban {
-  font-size: 20rem;
-  color: black;
-}
-.contenedor-404 .regresar {
-  margin-top: 2rem;
-  font-size: 2rem;
-  border: 1px solid black;
-  border-radius: 10%;
-  padding: 2rem;
-  text-decoration: none;
-  background-color: black;
-  color: white;
-}
-.contenedor-404 .regresar:hover {
-  opacity: 0.7;
-}
 
 /*** GLOBALS ***/
 @media (min-width: 576px) {
@@ -465,17 +450,18 @@ footer {
 }
 /*** SERVICIOS ***/
 @media (min-width: 768px) {
+  /*Tablet*/
   .contenedor-img {
     background-color: #023e8a;
-    width: 40rem;
-    height: 65rem;
+    width: 80%;
+    height: 60rem;
     margin: auto;
     padding-top: 2.5rem;
   }
 
   .img-servicio {
-    height: 25rem;
-    width: 34rem;
+    height: 30rem;
+    width: 100%;
     display: block;
     margin: auto;
     border-radius: 10px;
@@ -493,6 +479,16 @@ footer {
     font-size: 1.8rem;
   }
 }
+@media (min-width: 992px) {
+  /*Computadora*/
+  .img-servicio {
+    height: 25rem;
+  }
+
+  .servicio__titulo {
+    padding-bottom: 0.5rem;
+  }
+}
 /*** EMPRESA ***/
 @media (min-width: 576px) {
   .qs__titulo {
@@ -503,27 +499,48 @@ footer {
 @media (min-width: 768px) {
   .img-empresa-tamaño {
     height: 50rem;
-    width: 50rem;
+    width: 94%;
+    border-bottom: none;
+    padding-bottom: 0rem;
+  }
+}
+@media (min-width: 992px) {
+  .texto-centrado {
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 /*** NORMATIVAS ***/
 @media (min-width: 576px) {
   .container-nor {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .img-normativa {
-    margin-right: 20rem;
-    margin-left: 90rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+  }
+
+  .container-leyes {
+    margin-left: 1rem;
   }
 
   .pdf-text {
+    font-size: 1.8rem;
     font-weight: bold;
   }
 
   .li-normativas {
-    width: 70rem;
+    width: 100%;
   }
 
   .ul-normativas {

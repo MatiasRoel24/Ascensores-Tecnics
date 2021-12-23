@@ -65,19 +65,18 @@ main{
 }
 
 /*** SERVICIOS ***/
-
-@media (min-width:768px){
+@media (min-width:768px){ /*Tablet*/
   .contenedor-img{
     background-color: $color-principal;
-    width: 40rem;
-    height: 65rem;
+    width: 80%;
+    height: 60rem;
     margin: auto;
     padding-top: 2.5rem;
   }
   
   .img-servicio{
-    height: 25rem;
-    width: 34rem;
+    height: 30rem;
+    width: 100%;
     display: block;
     margin: auto;
     border-radius: 10px;
@@ -88,7 +87,6 @@ main{
     text-align: center;
     font-size: 3rem;
     padding-top: 2rem;
-    
   }
   
   .servicio__texto{
@@ -96,6 +94,15 @@ main{
     font-size: 1.8rem;
   }
 }
+@media (min-width:992px){ /*Computadora*/
+  .img-servicio{
+    height: 25rem;
+  }
+  .servicio__titulo{
+    padding-bottom: 0.5rem;
+  }
+}
+
 
 /*** EMPRESA ***/
 
@@ -104,13 +111,25 @@ main{
     font-size: 8rem;
     text-align: center;
   }
-}
 
+}
 
 @media (min-width: 768px) {
   .img-empresa-tamaño {
     height: 50rem;
-    width: 50rem;
+    width: 94%;
+    border-bottom: none;
+    padding-bottom: 0rem;
+  }
+}
+
+@media (min-width:992px){
+  .texto-centrado{
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -120,21 +139,30 @@ main{
 @media (min-width: 576px){
   .container-nor{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .img-normativa{
-    margin-right: 20rem;
-    margin-left: 90rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin: 0 auto;
   }
-  
+
+  .container-leyes{
+    margin-left: 1rem;
+  }
+
   .pdf-text{
+    font-size: 1.8rem;
     font-weight: bold;
   }
 
-  .li-normativas
-  {
-    width: 70rem;
+  .li-normativas{
+    width: 100%;
   }
   
   .ul-normativas {
